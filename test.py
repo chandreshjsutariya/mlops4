@@ -54,5 +54,5 @@ class TestModel(unittest.TestCase):
 
         self.assertEqual(prediction, "dog", "Predicted class is wrong")
 
-if name == "__main__":
+if __name__ == "__main__":
     unittest.main()
